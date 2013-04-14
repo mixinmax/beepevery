@@ -105,3 +105,12 @@ h1 {
     .control { margin-top: -5px; width: 210px !important; }
     #footer { width: 100%; margin-top: -20px; margin-left: 0; }
 }
+
+@media (width: 600px) and (height: 800px) {
+    #header .span6 { width: 90%; margin-left: 25px; }
+    #error .span6 { width: 90%; margin-left: 30px; }
+    #timer-block { width: 90%; margin-left: 30px;}
+    #start-pause { margin-left: 30px; }
+    .control { width: 264px !important; margin-top: -5px; }
+    #footer { width: 90%; margin-left: 25px; }
+}
