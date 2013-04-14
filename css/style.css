@@ -116,13 +116,23 @@ h1 {
 }
 
 @media (width: 800px) and (height: 600px) {
-    #header .span6 { width: 90%; margin-left: 30px; }
-    h1 { font-size: 4em; margin-bottom: 0px;}
-    #error .span6 { width: 90%; margin-left: 30px; }
-    #timer-block { width: 90%; margin-left: 30px;}
-    #timer { font-size: 6em; }
-    .little { font-size: 0.8em !important; }
-    #start-pause { margin-left: 30px; }
-    .control { width: 352px !important; margin-top: -5px; }
-    #footer { width: 90%; margin-left: 25px; }
+    #header .span6 { width: 80%; margin-left: 75px; }
+    h1 { font-size: 3.5em; margin-bottom: 0px;}
+    #error .span6 { width: 80%%; margin-left: 75px; }
+    #timer-block { width: 80%%; margin-left: 75px; }
+    #timer { font-size: 5em; }
+    .little { font-size: 0.5em !important; }
+    #start-pause { margin-left: 75px; }
+    .control { width: 312px !important; margin-top: -5px; }
+    #footer { width: 80%%; margin-left: 75px; }
+}
+
+@media (width: 768px) and (height: 1024px) {
+    #header .span6 { width: 80%; margin-left: 75px; }
+    #error .span6 { width: 80%%; margin-left: 75px; }
+    #timer-block { width: 80%%; margin-left: 75px;}
+    #timer { font-size: 5em; }
+    #start-pause { margin-left: 75px; }
+    .control { width: 300px !important; margin-top: -5px; }
+    #footer { width: 80%%; margin-left: 75px; }
 }
