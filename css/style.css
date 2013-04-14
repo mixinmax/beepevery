@@ -88,8 +88,8 @@ h1 {
  ***************************************/
 
 @media screen and (min-width: 769px) and (max-width: 1124px) {
-    #header .span6 { width: 60%; margin-left: 19.6%; }
-    #error .span6 { width: 60%; margin-left: 19.6%; }
+    #header .span8 { width: 60%; margin-left: 19.6%; }
+    #error .span8 { width: 60%; margin-left: 19.6%; }
     #timer-block { width: 60%; margin-left: 19.6%; font-size: 120% !important;}
     #timer { font-size: 5em; }
     #start-pause { margin-left: 19.6%; }
@@ -97,22 +97,10 @@ h1 {
     #footer { width: 60%; margin-left: 19.6%; }
 }
 
-/*
-@media screen and (min-width: 801px) and (max-width: 768px) {
-    #header .span6 { width: 80%; margin-left: 75px; }
-    #error .span6 { width: 80%; margin-left: 75px; }
-    #timer-block { width: 80%; margin-left: 75px; font-size: 120% !important;}
-    #timer { font-size: 5em; }
-    #start-pause { margin-left: 75px; }
-    .control { width: 300px !important; margin-top: -5px; }
-    #footer { width: 80%; margin-left: 75px; }
-}
-*/
-
 @media screen and (min-width: 601px) and (max-width: 800px) {
-    #header .span6 { width: 80%; margin-left: 9.5%; }
+    #header .span8 { width: 80%; margin-left: 9.5%; }
     h1 { font-size: 3.5em; margin-bottom: 0px;}
-    #error .span6 { width: 80%; margin-left: 9.5%; }
+    #error .span8 { width: 80%; margin-left: 9.5%; }
     #timer-block { width: 80%; margin-left: 9.5%; font-size: 120% !important; }
     #timer { font-size: 5em; }
     .little { font-size: 0.5em; }
@@ -122,8 +110,8 @@ h1 {
 }
 
 @media screen and (min-width: 481px) and (max-width: 600px) {
-    #header .span6 { width: 90%; margin-left: 5%; }
-    #error .span6 { width: 90%; margin-left: 5%; }
+    #header .span8 { width: 90%; margin-left: 5%; }
+    #error .span8 { width: 90%; margin-left: 5%; }
     #timer-block { width: 90%; margin-left: 5%; font-size: 120% !important;}
     #start-pause { margin-left: 5%; }
     .control { width: 44% !important; margin-top: -5px; }
@@ -132,10 +120,10 @@ h1 {
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
     #header { margin-top: -10px; }
-    #header .span6 { width: 90%; margin-left: 5%; }
+    #header .span8 { width: 90%; margin-left: 5%; }
     h1 { font-size: 3em; margin-left: -15px; padding-left: 10px; }
     #interval { width: 150px; height: 40px; font-size: 2em; margin-bottom: 20px; width: 150px; }
-    #error .span6 { width: 90%; margin-left: 5%; }
+    #error .span8 { width: 90%; margin-left: 5%; }
     #timer-block { width: 90%; margin-left: 5%; height: 100px; padding: 10px; font-size: 120% !important;}
     #start-pause { margin-left: 5%; }
     .control { margin-top: -5px; width: 44% !important; }
@@ -145,9 +133,9 @@ h1 {
 @media screen and (max-width: 320px) {
     #timer-block { width: 90%; margin-left: 5%; padding: 10px; font-size: 75% !important;}
     #header { margin-top: 0px; }
-    #header .span6 { margin-left: 11%; }
-    #interval { margin-top: -45px; margin-left: 15%; }
-    #error .span6 { width: 90%; margin-left: 5%; }
+    #header .span8 { margin-left: 11% !important; }
+    #interval { margin-top: -45px; margin-left: 12%; }
+    #error .span8 { width: 90%; margin-left: 5%; }
     .control { width: 44% !important; margin-top: -10px; }
     #start-pause { margin-left: 5%; }
     #footer { width: 300px; margin-left: 10px; }
