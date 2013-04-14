@@ -1,0 +1,4 @@
+# I am a robot. Beep beep.
+
+User-agent: *
+Disallow:
