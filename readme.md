@@ -5,7 +5,7 @@ _interval beeping and self-serving website -- all in one!_
 ## Why?
 
 I decided to make BeepEvery when I needed a way to timebox a workout routine and had nothing to do
-over the weekend. I rough around the edges but serves its purpose.
+over the weekend. Its rough around the edges, but serves its purpose.
 
 ## Uses
 
