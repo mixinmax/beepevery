@@ -93,3 +93,15 @@ h1 {
     #start-pause { margin-left: 15px !important; }
     #footer { width: 95%; margin-left: 10px; }
 }
+
+@media (width: 480px) and (height: 320px) {
+    #header { margin-top: -10px; }
+    #header .span6 { width: 90%; margin-left: 25px; }
+    h1 { font-size: 3em; margin-left: -15px; padding-left: 10px; }
+    #interval { width: 150px; height: 40px; font-size: 2em; margin-bottom: 20px; width: 150px; }
+    #error .span6 { width: 90%; margin-left: 25px; }
+    #timer-block { width: 90%; margin-left: 24px; height: 100px; padding: 10px; }
+    #start-pause { margin-left: 25px !important; }
+    .control { margin-top: -5px; width: 210px !important; }
+    #footer { width: 100%; margin-top: -20px; margin-left: 0; }
+}
