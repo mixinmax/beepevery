@@ -36,13 +36,13 @@ h1 {
 }
 
 #timer {
-    font-size: 4.5em; 
+    font-size: 470%; 
     line-height: 1em; 
     font-weight: bold
 }
 
 .little {
-    font-size: 0.5em;
+    font-size: 50%;
 }
 
 /*********************
@@ -84,19 +84,19 @@ h1 {
  ***************************************/
 
 @media screen and (min-width: 769px) and (max-width: 1124px) {
-    #header .span6 { width: 613px; margin-left: 200px; }
-    #error .span6 { width: 613px; margin-left: 200px; }
-    #timer-block { width: 613px; margin-left: 200px;}
+    #header .span6 { width: 60%; margin-left: 19.6%; }
+    #error .span6 { width: 60%; margin-left: 19.6%; }
+    #timer-block { width: 60%; margin-left: 19.6%; font-size: 120% !important;}
     #timer { font-size: 5em; }
-    #start-pause { margin-left: 200px; }
-    .control { width: 297px !important; margin-top: 0; }
-    #footer { width: 613px; margin-left: 200px; }
+    #start-pause { margin-left: 19.6%; }
+    .control { width: 29% !important; margin-top: 0; }
+    #footer { width: 60%; margin-left: 19.6%; }
 }
 
 @media screen and (min-width: 801px) and (max-width: 768px) {
     #header .span6 { width: 80%; margin-left: 75px; }
-    #error .span6 { width: 80; margin-left: 75px; }
-    #timer-block { width: 80%; margin-left: 75px;}
+    #error .span6 { width: 80%; margin-left: 75px; }
+    #timer-block { width: 80%; margin-left: 75px; font-size: 120% !important;}
     #timer { font-size: 5em; }
     #start-pause { margin-left: 75px; }
     .control { width: 300px !important; margin-top: -5px; }
@@ -104,45 +104,45 @@ h1 {
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
-    #header .span6 { width: 640px; margin-left: 75px; }
+    #header .span6 { width: 80%; margin-left: 9.5%; }
     h1 { font-size: 3.5em; margin-bottom: 0px;}
-    #error .span6 { width: 640px; margin-left: 75px; }
-    #timer-block { width: 640px; margin-left: 75px; }
+    #error .span6 { width: 80%; margin-left: 9.5%; }
+    #timer-block { width: 80%; margin-left: 9.5%; font-size: 120% !important; }
     #timer { font-size: 5em; }
     .little { font-size: 0.5em; }
-    #start-pause { margin-left: 75px; }
-    .control { width: 312px !important; margin-top: -5px; }
-    #footer { width: 640px; margin-left: 75px; }
+    #start-pause { margin-left: 9.5%; }
+    .control { width: 39% !important; margin-top: -5px; }
+    #footer { width: 80%; margin-left: 9.5%; }
 }
 
 @media screen and (min-width: 481px) and (max-width: 600px) {
-    #header .span6 { width: 540px; margin-left: 25px; }
-    #error .span6 { width: 540px; margin-left: 30px; }
-    #timer-block { width: 540px; margin-left: 30px;}
-    #start-pause { margin-left: 30px; }
-    .control { width: 264px !important; margin-top: -5px; }
-    #footer { width: 540px; margin-left: 25px; }
+    #header .span6 { width: 90%; margin-left: 5%; }
+    #error .span6 { width: 90%; margin-left: 5%; }
+    #timer-block { width: 90%; margin-left: 5%; font-size: 120% !important;}
+    #start-pause { margin-left: 5%; }
+    .control { width: 44% !important; margin-top: -5px; }
+    #footer { width: 90%; margin-left: 5%; }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
     #header { margin-top: -10px; }
-    #header .span6 { width: 430px; margin-left: 25px; }
+    #header .span6 { width: 90%; margin-left: 5%; }
     h1 { font-size: 3em; margin-left: -15px; padding-left: 10px; }
     #interval { width: 150px; height: 40px; font-size: 2em; margin-bottom: 20px; width: 150px; }
-    #error .span6 { width: 430px; margin-left: 25px; }
-    #timer-block { width: 430px; margin-left: 24px; height: 100px; padding: 10px; }
-    #start-pause { margin-left: 25px; }
-    .control { margin-top: -5px; width: 210px !important; }
-    #footer { width: 480px; margin-top: -20px; margin-left: 0; }
+    #error .span6 { width: 90%; margin-left: 5%; }
+    #timer-block { width: 90%; margin-left: 5%; height: 100px; padding: 10px; font-size: 120% !important;}
+    #start-pause { margin-left: 5%; }
+    .control { margin-top: -5px; width: 44% !important; }
+    #footer { width: 100%; margin-top: -20px; margin-left: 0; }
 }
 
 @media screen and (max-width: 320px) {
-    #timer-block { width: 290px; margin-left: 15px; padding: 10px; font-size: 0.8em; }
+    #timer-block { width: 90%; margin-left: 5%; padding: 10px; font-size: 75% !important;}
     #header { margin-top: 0px; }
-    #header .span6 { margin-left: 37px; }
-    #interval { margin-top: -45px; margin-left: 20px; }
-    #error .span6 { width: 290px; margin-left: 15px; }
-    .control { width: 141px !important; margin-top: -10px; }
-    #start-pause { margin-left: 15px; }
+    #header .span6 { margin-left: 11%; }
+    #interval { margin-top: -45px; margin-left: 15%; }
+    #error .span6 { width: 90%; margin-left: 5%; }
+    .control { width: 44% !important; margin-top: -10px; }
+    #start-pause { margin-left: 5%; }
     #footer { width: 300px; margin-left: 10px; }
 }
