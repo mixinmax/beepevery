@@ -21,6 +21,8 @@ The time format accepted in the input box is as follows: `[xx]h[xx]m[xx]s`. For 
     15m        // beep every 15 minutes
     42s        // beep every 42 seconds
 
+Start the timer by pressing `START`. You can pause it with `PAUSE` and when you `CONTINUE` the beep process will keep going from where it left off. `RESET` will clear the beeper and allow you to enter a new time.
+
 If you're using small time increments (entering `1s` for example), you might find a lag before the first beep is invoked. I'm currently trying to fix it, feel free to help.
 
 ## Bugs
