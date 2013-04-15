@@ -28,3 +28,7 @@ If you're using small time increments (entering `1s` for example), you might fin
 ## Bugs
 
 There are a couple outstanding issues and enhancements I wanted to complete but didn't have the time. I'd be overjoyed if someone found this thing interesting enough to fork. I'll happy accept working pull requests.
+
+## Credits
+
+Hooray for [these people](credit.md) who let me use their stuff!
